@@ -1,0 +1,141 @@
+body {
+  padding-top: 150px;
+  color: #430f58;
+}
+#city-form {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.container {
+  border: 1px solid blueviolet;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 300px;
+  max-width: 50%;
+  background: #5f2c82; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #49a09d,
+    #5f2c82
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #49a09d,
+    #5f2c82
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  margin-bottom: 0;
+}
+h1,
+h3 {
+  font-size: 25px;
+}
+
+h1,
+h2,
+h3,
+.temperature,
+#units {
+  font-family: "EB Garamond", serif;
+}
+#city-input {
+  border-radius: 30px;
+  text-align: center;
+  border: 0.5px solid blueviolet;
+  margin-right: 30px;
+}
+#searchInput,
+#locationInput {
+  border-radius: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: 0.5px solid blueviolet;
+  background: white;
+  color: rgba(56, 56, 56, 0.712);
+}
+#locationInput {
+  margin-left: 30px;
+}
+#celsius,
+#farenheit {
+  text-decoration: none;
+  color: #601c7a;
+}
+#units {
+  font-size: 30px;
+}
+.row {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  width: fit-content;
+}
+#weatherIcon {
+  font-size: 60px;
+  color: white;
+  display: inline;
+}
+.weather-condition {
+  font-size: 20px;
+}
+#weatherIcons {
+  font-size: 35px;
+  color: #fbfb57;
+}
+.temperature {
+  font-size: 40px;
+}
+.humidity {
+  padding-top: 30px;
+}
+.humidity,
+.wind {
+  padding-left: 120px;
+  font-size: 18px;
+}
+#firstRound,
+#secondRound {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 400px;
+  height: 400px;
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.week-days {
+  font-size: 24px;
+}
+.week-days,
+p,
+.humidity,
+.wind,
+.weather-condition {
+  font-family: "Anonymous Pro", monospace;
+}
+.col-2 p {
+  padding: 5px;
+}
+#firstRound {
+  border: 1px solid #8bc6e6;
+  border-radius: 50%;
+}
+#secondRound {
+  margin-left: 20px;
+  border: 1px solid #8bc6e6;
+  border-radius: 50%;
+}
+.coder {
+  text-align: center;
+}
