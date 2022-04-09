@@ -57,11 +57,6 @@ h3,
 #locationInput {
   margin-left: 30px;
 }
-#celsius,
-#farenheit {
-  text-decoration: none;
-  color: #601c7a;
-}
 #units {
   font-size: 30px;
 }
@@ -152,4 +147,9 @@ p,
 }
 .coder {
   text-align: center;
+}
+a.active {
+  color: rgb(67, 15, 88);
+  cursor: default;
+  text-decoration: none;
 }
