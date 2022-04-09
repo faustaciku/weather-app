@@ -73,6 +73,7 @@ h3,
 }
 #weatherIcon {
   font-size: 60px;
+  line-height: 0px;
   color: white;
   display: inline;
 }
@@ -84,7 +85,12 @@ h3,
   color: #fbfb57;
 }
 .temperature {
-  font-size: 40px;
+  font-size: 50px;
+}
+.temperature,
+#units {
+  position: relative;
+  left: -10px;
 }
 .humidity {
   padding-top: 30px;
