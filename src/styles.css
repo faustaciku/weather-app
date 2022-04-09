@@ -127,8 +127,16 @@ h3,
 p,
 .humidity,
 .wind,
-.weather-condition {
+.weather-condition,
+#updated {
   font-family: "Anonymous Pro", monospace;
+}
+#updated,
+#date {
+  line-height: 0;
+}
+#updated {
+  font-size: 13px;
 }
 .col-2 p {
   padding: 5px;
