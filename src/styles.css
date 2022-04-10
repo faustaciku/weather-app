@@ -147,11 +147,6 @@ p,
 .coder {
   text-align: center;
 }
-a.active {
-  color: rgb(67, 15, 88);
-  cursor: default;
-  text-decoration: none;
-}
 #forecast {
   font-size: 14px;
   line-height: 15px;
