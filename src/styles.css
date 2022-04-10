@@ -147,6 +147,9 @@ p,
 .coder {
   text-align: center;
 }
+.coder a {
+  color: aliceblue;
+}
 #forecast {
   font-size: 14px;
   line-height: 15px;
