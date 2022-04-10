@@ -75,10 +75,6 @@ h3,
 .weather-condition {
   font-size: 20px;
 }
-#weatherIcons {
-  font-size: 35px;
-  color: #fbfb57;
-}
 .temperature {
   font-size: 50px;
 }
@@ -114,6 +110,9 @@ h3,
     #86a8e7,
     #7f7fd5
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h3 {
+  margin-top: -13px;
 }
 .week-days {
   font-size: 24px;
@@ -152,4 +151,16 @@ a.active {
   color: rgb(67, 15, 88);
   cursor: default;
   text-decoration: none;
+}
+#forecast {
+  font-size: 14px;
+  line-height: 15px;
+  margin-top: -10px;
+}
+.weather-forecast-temperature-max,
+.weather-forecast-date {
+  font-weight: bold;
+}
+.weather-forecast-date {
+  margin-top: 5px;
 }

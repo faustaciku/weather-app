@@ -11,12 +11,18 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <script
       src="https://kit.fontawesome.com/27c855d1c3.js"
@@ -26,7 +32,7 @@
   </head>
   <body>
     <div class="container">
-      <form id= "city-form" autocomplete="off">
+      <form id="city-form" autocomplete="off">
         <input type="text" id="city-input" placeholder="Enter a city" />
         <input type="submit" id="searchInput" value="Search" />
         <input type="submit" id="locationInput" value="Current Location" />
@@ -34,32 +40,34 @@
       <div class="row">
         <div class="col-2" id="firstRound">
           <h1>TODAY</h1>
-          <span id="updated">Last updated on</span><p id="date">Saturday 18:03</p>
+          <span id="updated">Last updated on</span>
+          <p id="date">Saturday 18:03</p>
           <h2></h2>
-          <img src="" alt="Clear" id="weatherIcon"/>
-          <span class="temperature" id="temp"></span><span id="units"> <a href="#" id="celsius-link" class="active">°C</a>/<a href="#" id="fahrenheit-link">°F</a></span>
+          <img src="" alt="Clear" id="weatherIcon" />
+          <span class="temperature" id="temp"></span
+          ><span id="units">
+            <a href="#" id="celsius-link" class="active">°C</a>/<a
+              href="#"
+              id="fahrenheit-link"
+              >°F</a
+            ></span
+          >
           <div class="weather-condition" id="description"></div>
           <div class="humidity">Humidity: <span id="humidity"></span>%</div>
-          <div class="wind">Wind: <span id= "windSpeed"></span>mph</div>
+          <div class="wind">Wind: <span id="windSpeed"></span>mph</div>
         </div>
         <div class="col-2" id="secondRound">
           <h3>This week</h3>
-          <div class="week-days">Sunday</div>
-          <i class="fa-solid fa-sun" id="weatherIcons"></i><strong>7°</strong>2°
-<div class="week-days">Monday</div>
-          <i class="fa-solid fa-sun" id="weatherIcons"></i><strong>7°</strong>0°
-          <div class="week-days">Tuesday</div>
-          <i class="fa-solid fa-sun" id="weatherIcons"></i><strong>9°</strong>2°
-          <div class="week-days">Wednesday</div>
-          <i class="fa-solid fa-sun" id="weatherIcons"></i><strong>12°</strong>6°
-        </div>
+          <div class="week-days" id="forecast"></div>
         </div>
       </div>
       <p class="coder">
-       <a href="https://github.com/faustaciku/weather-app" target="_blank"> Open source code</a> by Fausta Ciku
+        <a href="https://github.com/faustaciku/weather-app" target="_blank">
+          Open source code</a
+        >
+        by Fausta Ciku
       </p>
     </div>
-    <script src="src/index.js">
-      </script>
+    <script src="src/index.js"></script>
   </body>
 </html>
