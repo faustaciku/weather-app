@@ -1,3 +1,6 @@
+:root {
+  --primary-color: blueviolet;
+}
 body {
   padding-top: 150px;
   color: #430f58;
@@ -7,7 +10,7 @@ body {
   margin-bottom: 60px;
 }
 .container {
-  border: 1px solid blueviolet;
+  border: 1px solid var(--primary-color);
   padding-top: 80px;
   padding-bottom: 80px;
   border-radius: 300px;
@@ -42,7 +45,7 @@ h3,
 #city-input {
   border-radius: 30px;
   text-align: center;
-  border: 0.5px solid blueviolet;
+  border: 0.5px solid var(--primary-color);
   margin-right: 30px;
 }
 #searchInput,
@@ -50,7 +53,7 @@ h3,
   border-radius: 30px;
   padding-right: 20px;
   padding-left: 20px;
-  border: 0.5px solid blueviolet;
+  border: 0.5px solid var(--primary-color);
   background: white;
   color: rgba(56, 56, 56, 0.712);
 }
